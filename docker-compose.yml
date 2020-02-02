@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  movie-info:
+    image: movie-info
+    build: .
+    ports:
+      - 8081:8081
